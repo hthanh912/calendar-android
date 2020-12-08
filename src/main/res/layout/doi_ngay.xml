@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_doi_ngay"
+    tools:context=".MainActivity">
+
+
+    <DatePicker
+        android:id="@+id/pkNgayDuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <NumberPicker
+            android:layout_marginLeft="8dp"
+            android:id="@+id/pkNgayAm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></NumberPicker>
+
+        <NumberPicker
+            android:layout_marginLeft="16dp"
+            android:id="@+id/pkThangAm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></NumberPicker>
+
+        <NumberPicker
+            android:layout_marginLeft="16dp"
+            android:id="@+id/pkNamAm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></NumberPicker>
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="20sp"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/btnXemNgay"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text=" Xem ngày "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

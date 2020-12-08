@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60px"
+    android:padding="8dp"
+    android:orientation="vertical"
+	android:background="@drawable/cell_shape"
+    >
+	<TextView
+		android:id="@+id/date"
+		android:textAlignment="textStart"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="#000">
+	</TextView>
+
+	<TextView
+		android:id="@+id/date2"
+		android:textAlignment="textEnd"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="14sp"
+		android:textColor="#3e3e3e"
+		>
+	</TextView>
+
+</LinearLayout>

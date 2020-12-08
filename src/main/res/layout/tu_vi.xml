@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="Tử vi trọn đời 2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/ty"
+                    android:background="@drawable/ty"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:text="Tý"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/suu"
+                    android:background="@drawable/suu"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Sửu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/dan"
+                    android:background="@drawable/dan"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Dần"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/mao"
+                    android:background="@drawable/mao"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Mão"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/thin"
+                    android:background="@drawable/thin"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:text="Thìn"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/ti"
+                    android:background="@drawable/ti"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Tị"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/ngo"
+                    android:background="@drawable/ngo"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Ngọ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/mui"
+                    android:background="@drawable/mui"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Mùi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/than"
+                    android:background="@drawable/than"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Thân"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/dau"
+                    android:background="@drawable/dau"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Dậu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/tuat"
+                    android:background="@drawable/tuat"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Tuất"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+
+                    android:id="@+id/hoi"
+                    android:background="@drawable/hoi"
+                    android:layout_width="45dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="Hợi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_margin="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+
+</LinearLayout>
